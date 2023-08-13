@@ -1,0 +1,46 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .logo-container {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #271616;
+    background-color: #458ce4;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(46, 44, 44, 0.1);
+    background: linear-gradient(135deg, #292828, #e6f518, #161515);
+    margin: 20px 0;
+     
+  }
+
+  .logo-separador{
+       height: 2px;
+    background-color: white;
+    opacity: 0.5;
+    margin: 8px 0;
+  }
+
+  .drone-icon {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: auto;
+    
+  }
+
+ 
